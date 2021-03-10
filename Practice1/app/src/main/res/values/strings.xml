@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MC01</string>
+    <string name="heading">Sign In Form</string>
+    <string name="username">Phone number or email address</string>
+    <string name="password">Password</string>
+    <string name="login">Log In</string>
+    <string name="fpass">Forgotten password?</string>
+
+</resources>
