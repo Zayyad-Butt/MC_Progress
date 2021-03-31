@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Practice5</string>
+    <string name="myBtn">Add</string>
+    <string name="myTxtView">Name</string>
+</resources>
