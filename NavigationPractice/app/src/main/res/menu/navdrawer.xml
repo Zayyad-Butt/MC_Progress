@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="ALL LABELS">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/inbox"
+                        android:icon="@drawable/inbox"
+                        android:title="Inbox"
+                    />
+                    <item
+                        android:id="@+id/star"
+                        android:icon="@drawable/star"
+                        android:title="Starred"
+                    /><item
+                        android:id="@+id/snooze"
+                        android:icon="@drawable/snooze"
+                        android:title="Snoozed"
+                    /><item
+                        android:id="@+id/important"
+                        android:icon="@drawable/important"
+                        android:title="Important"
+                    /><item
+                        android:id="@+id/senr"
+                        android:icon="@drawable/send"
+                        android:title="Sent"
+                    /><item
+                        android:id="@+id/draft"
+                        android:icon="@drawable/drafts"
+                        android:title="Drafts"
+                    /><item
+                        android:id="@+id/bin"
+                        android:icon="@drawable/delete"
+                        android:title="Bin"
+                    />
+                </group>
+            </menu>
+    </item>
+    <item android:title="GOOGLE APPS">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/calender"
+                        android:icon="@drawable/calendar"
+                        android:title="Calender"
+                    />
+                    <item
+                        android:id="@+id/contact"
+                        android:icon="@drawable/contact"
+                        android:title="Contact"
+                    />
+                </group>
+            </menu>
+    </item>
+
+</menu>
