@@ -28,4 +28,11 @@ public class MainActivity extends AppCompatActivity {
         transaction.replace(R.id.linearLayout, fragment1);
         transaction.commit();
     }
+
+    public void FragmentTwo(View view) {
+        FragmentTwo fragment2 = new FragmentTwo();
+        FragmentTransaction transaction =getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.linearLayout, fragment2);
+        transaction.commit();
+    }
 }
