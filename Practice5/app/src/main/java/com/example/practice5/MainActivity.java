@@ -25,9 +25,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         listView=findViewById(R.id.myListView);
-        friendList = new ArrayList<String>();
         Button button=findViewById(R.id.button);
         textView=findViewById(R.id.editTextTextPersonName);
+
+        friendList = new ArrayList<String>();
+
+
         friendList.add("Hammad");
         friendList.add("Zayyad");
         friendList.add("Muaaz");
